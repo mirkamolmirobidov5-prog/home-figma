@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1520px;
+  margin: auto;
+  background-image: url("./imgs/Rectangle 1.png");
+}
+
+.header_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header_heading > b {
+  color: #E5BF9B;
+}
+
+.header_heading {
+  color: #fff;
+}
+
+.header_list {
+  color: #fff;
+  display: flex;
+  gap: 50px;
+}
+
+.header_item {
+  list-style-type: none;
+}
+
+.hero_kontent {
+  width: 90%;
+  margin: auto;
+  height: 600px;
+}
+
+.hero_heading {
+  padding: 50px 0px;
+  font-size: 70px;
+  color: #fff;
+}
+
+.hero_heading > b {
+  font-size: 80px;
+  color: #E5BF9B;
+}
+
+.hero_paragrf {
+  padding: 50px 0px;
+  color: #fff;
+}
+
+.minutes {
+  display: flex;
+  gap: 20px;
+}
+
+.minut {
+  color: #fff;
+}
+
+.minut_heading > b {
+  color: #E5BF9B;
+}
+
+.minut_paragrf {
+  color: #fff;
+}
+
+.Advantages {
+  width: 1520px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Advantages_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Advantages_heading {
+  padding: 30px 80px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.Advantages_right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 650px;
+  gap: 20px;
+}
+
+.cards_heading {
+  color: #E5BF9B;
+}
+
+.cards_paragrf {
+  color: #fff;
+}
+
+.imgs {
+  width: 1520px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.imgs_kontent {
+  width: 90%;
+  margin: auto;
+}
+
+.imgs_img {
+  margin: 100px 80px;
+}
+
+.Apartments {
+  width: 1520px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Apartments_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Apartments_text {
+  margin: 100px 0px;
+}
+
+.text_up {
+  color: #fff;
+}
+
+.text_heading {
+  padding: 20px 0px;
+  font-size: 50px;
+}
+
+.text_heading2 {
+  padding: 20px 0px;
+  font-size: 30px;
+  color: #E5BF9B;
+}
+
+.up_select {
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 0px 20px;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.text_heading3 {
+  padding: 10px 0px;
+  font-size: 30px;
+}
+
+.text_center {
+  display: flex;
+  gap: 20px;
+}
+
+.center_text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.center_heading {
+  color: #E5BF9B;
+  font-size: 50px;
+}
+
+.center_paragrf {
+  color: #fff;
+}
+
+.down_btn {
+  width: 180px;
+  height: 50px;
+  margin: 100px 0px;
+  background-color: transparent;
+  border: 3px solid #E5BF9B;
+  color: #fff;
+  font-size: 18px;
+}
+
+.img_img {
+  width: 790px;
+  height: 930px;
+}
+
+.Infrastructure {
+  width: 1520px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Infrastructure_card {
+  width: 50%;
+  height: 500px;
+  background-image: url("./imgs/Rectangle 2 (4).png");
+}
+
+.Infrastructure_heading {
+  color: #E5BF9B;
+  padding: 20px 120px;
+  padding-top: 200px;
+}
+
+.Infrastructure_heading2 {
+  padding: 20px 120px;
+  color: #fff;
+}
+
+.Infrastructure_paragrf {
+  padding: 20px 120px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
