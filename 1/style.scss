@@ -23,6 +23,12 @@
 .header_heading {
     color: #fff;
 }
+.header_heading2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .header_list {
     color: #fff;
     display: flex;
@@ -205,3 +211,197 @@
     padding: 20px 120px;
     color: #fff;
 }
+
+
+
+/////////////////////////////////////////Mortgage\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+.Mortgage {
+    width: 1520px;
+    margin: auto;
+    background-color: #25435B;
+    height: 750px;
+}
+.Mortgage_kontent {
+    width: 90%;
+    margin: auto;
+}
+.kontent_heading {
+    color: #fff;
+    font-size: 50px;
+}
+.Mortgage_box1 {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0px;
+}
+.box1_btn {
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #E5BF9B;
+    color: #fff;
+    font-size: 20px;
+}
+
+.box1_btn:nth-child(2) {
+    width: 240px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.box1_btn:nth-child(3) {
+    width: 310px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.box1_btn:nth-child(4) {
+    width: 160px;
+    height: 50px;
+    border: 2px solid #fff;
+}
+
+.Mortgage_box2 {
+    display: flex;
+    gap: 30px;
+}
+.box2_right_box {
+    color: #fff;
+}
+
+.box3_heading {
+    color: #fff;
+}
+.box3_card {
+    margin: 20px 0px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card_list {
+    display: flex;
+    gap: 150px;
+    list-style-type: none;
+}
+.card_item {
+    color: #fff;
+}
+
+.Mortgage_box4 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.box4_btn {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #E5BF9B;
+    color: #fff;
+    font-size: 15px;
+}
+.box4_paragrf {
+    color: #fff;
+}
+
+///////////////////////////////Location\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+.Location {
+    width: 1520px;
+    margin: auto;
+    background-color: #25435B;
+}
+.Location_content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Location_box1 {
+    margin: 50px 0px;
+    color: #fff;
+}
+.Location_heaading {
+    padding: 20px 0px;
+}
+.Location_box2 {
+    margin: 50px 0px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 20px;
+    align-items: center;
+}
+.Location_heading2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Location_box3 {
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.Location_heading3>b {
+    color: #E5BF9B;
+}
+.Location_paragrf2 {
+    padding: 10px 0px;
+}
+/////////////////////////////////////Contacts\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+.Contacts {
+    width: 1520px;
+    margin: auto;
+    background-color: #25435B;
+}
+.Contacts_content {
+    width: 90%;
+    margin: auto;
+}
+.Contacts_up {
+    display: flex;
+    justify-content: space-between;
+}
+.up_box {
+    color: #fff;
+}
+.up_heading {
+    padding: 30px 0px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.up_paragrf {
+    padding: 20px 0px;
+}
+.Contacts_down {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 150px;
+    align-items: center;
+}
+.down_box_heading {
+    padding: 30px 0px;
+}
+.down_left_btn {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #E5BF9B;
+}
+/////////////////////////////////footer\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
