@@ -87,13 +87,13 @@
   width: 1520px;
   margin: auto;
   background-color: #25435B;
+  justify-content: space-between;
 }
 
 .Advantages_kontent {
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
 }
 
 .Advantages_heading {
@@ -108,6 +108,10 @@
   width: 800px;
   height: 650px;
   gap: 20px;
+}
+
+.card_img {
+  margin: 0px 10px;
 }
 
 .cards_heading {
