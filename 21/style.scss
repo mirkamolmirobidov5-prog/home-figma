@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Advantages {
+    width: 3300px;
+    margin: auto;
+    background-color: #25435B;
+    justify-content: space-between;
+}
+.Advantages_kontent {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    // justify-content: space-around;
+}
+.Advantages_heading {
+    padding: 30px 80px;
+    font-size: 50px;
+    color: #fff;
+}
+.Advantages_right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 650px;
+    gap: 20px;
+
+}
+.card_img {
+    margin: 0px 10px;
+}
+.cards_heading {
+    color: #E5BF9B;
+}
+.cards_paragrf {
+    color: #fff;
+}

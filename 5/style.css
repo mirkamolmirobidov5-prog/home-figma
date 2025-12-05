@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 850px;
+  margin: auto;
+  background-image: url("./imgs/Rectangle 1.png");
+}
+
+.header_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontent_box1 {
+  display: flex;
+  gap: 20px;
+}
+
+.header_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.header_heading {
+  font-size: 20px;
+  color: #fff;
+}
+
+.header_heading > b {
+  font-size: 20px;
+  color: #E5BF9B;
+}
+
+.header_heading2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header_heading2 > img {
+  width: 40px;
+  height: 40px;
+}
+
+.hero_kontent {
+  width: 90%;
+  margin: auto;
+  height: 700px;
+}
+
+.hero_heading {
+  padding: 50px 0px;
+  font-size: 70px;
+  color: #fff;
+}
+
+.hero_heading > b {
+  font-size: 80px;
+  color: #E5BF9B;
+}
+
+.hero_paragrf {
+  padding: 50px 0px;
+  color: #fff;
+}
+
+.minutes {
+  width: 400px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.minut {
+  color: #fff;
+}
+
+.minut_heading > b {
+  color: #E5BF9B;
+  font-size: 40px;
+}
+
+.minut_paragrf {
+  color: #fff;
+}
+
+.Advantages {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Advantages_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Advantages_heading {
+  padding: 30px 80px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.Advantages_right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 650px;
+  gap: 20px;
+}
+
+.cards_heading {
+  color: #E5BF9B;
+}
+
+.cards_paragrf {
+  color: #fff;
+}
+
+.imgs {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.imgs_kontent {
+  width: 90%;
+  margin: auto;
+}
+
+.imgs_img {
+  margin: 80px 0px;
+  width: 750px;
+}
+
+.Apartments {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Apartments_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.Apartments_text {
+  display: flex;
+  margin: 100px 0px;
+}
+
+.text_up {
+  color: #fff;
+}
+
+.text_heading {
+  padding: 20px 0px;
+  font-size: 50px;
+}
+
+.text_heading2 {
+  padding: 20px 0px;
+  font-size: 30px;
+  color: #E5BF9B;
+}
+
+.up_select {
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 0px 20px;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.text_heading3 {
+  padding: 10px 0px;
+  font-size: 30px;
+}
+
+.text_center {
+  display: flex;
+  gap: 20px;
+}
+
+.center_text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.center_heading {
+  color: #E5BF9B;
+  font-size: 50px;
+}
+
+.center_paragrf {
+  color: #fff;
+}
+
+.down_btn {
+  width: 180px;
+  height: 50px;
+  margin: 100px 0px;
+  background-color: transparent;
+  border: 3px solid #E5BF9B;
+  color: #fff;
+  font-size: 18px;
+}
+
+.Infrastructure {
+  width: 850px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Infrastructure_card {
+  width: 50%;
+  height: 500px;
+  background-image: url("./imgs/Rectangle 2 (4).png");
+}
+
+.Infrastructure_heading {
+  color: #E5BF9B;
+  padding: 20px 120px;
+  padding-top: 200px;
+}
+
+.Infrastructure_heading2 {
+  padding: 20px 120px;
+  color: #fff;
+}
+
+.Infrastructure_paragrf {
+  padding: 20px 120px;
+  color: #fff;
+}
+
+.Mortgage {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Mortgage_kontent {
+  width: 90%;
+  margin: auto;
+}
+
+.kontent_heading {
+  color: #fff;
+  font-size: 50px;
+  padding: 50px 0px;
+}
+
+.Mortgage_box1 {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0px;
+}
+
+.box1_btn {
+  width: 140px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #E5BF9B;
+  color: #fff;
+  font-size: 20px;
+}
+
+.box1_btn:nth-child(2) {
+  width: 240px;
+  height: 50px;
+  border: 2px solid #fff;
+}
+
+.box1_btn:nth-child(3) {
+  width: 310px;
+  height: 50px;
+  border: 2px solid #fff;
+}
+
+.box1_btn:nth-child(4) {
+  width: 160px;
+  height: 50px;
+  border: 2px solid #fff;
+}
+
+.Mortgage_box2 {
+  display: flex;
+  gap: 30px;
+}
+
+.box2_right_box {
+  color: #fff;
+}
+
+.box3_heading {
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.box3_card {
+  margin: 20px 0px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_list {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.card_item {
+  color: #fff;
+}
+
+.Mortgage_box4 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.box4_btn {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #E5BF9B;
+  color: #fff;
+  font-size: 15px;
+}
+
+.box4_paragrf {
+  color: #fff;
+}
+
+.Location {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Location_content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.Location_box1 {
+  margin: 50px 0px;
+  color: #fff;
+}
+
+.Location_heaading {
+  padding: 20px 0px;
+}
+
+.Location_box2 {
+  margin: 50px 0px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  gap: 20px;
+  align-items: center;
+}
+
+.Location_heading2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Location_box3 {
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  margin: 50px 0px;
+}
+
+.Location_heading3 > b {
+  color: #E5BF9B;
+}
+
+.Location_paragrf2 {
+  padding: 10px 0px;
+}
+
+.Contacts {
+  width: 850px;
+  margin: auto;
+  background-color: #25435B;
+}
+
+.Contacts_content {
+  width: 90%;
+  margin: auto;
+}
+
+.Contacts_up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.up_box {
+  color: #fff;
+}
+
+.up_heading {
+  padding: 30px 0px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.up_paragrf {
+  padding: 20px 0px;
+}
+
+.Contacts_down {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  height: 150px;
+  align-items: center;
+}
+
+.down_box_heading {
+  padding: 30px 0px;
+}
+
+.down_left_btn {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  background-color: transparent;
+  border: 2px solid #E5BF9B;
+}
+
+.cardss {
+  display: flex;
+  gap: 50px;
+  height: 600px;
+  margin: 0px 170px;
+}
+
+.Apartments_card {
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: rgb(101, 101, 101);
+}
+
+.Apartments_card_heading {
+  padding: 20px 20px;
+  color: #E5BF9B;
+}
+
+.Apartments_card_paragrf {
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.Apartments_card_paragrf > b {
+  color: #E5BF9B;
+}
+
+.Apartments_card_img {
+  margin: 0px 20px;
+}
+
+.Apartments_card_paragrf2 {
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.Apartments_card_btn {
+  margin: 0px 20px;
+  width: 220px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  border: 0;
+  border: 2px solid #E5BF9B;
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */

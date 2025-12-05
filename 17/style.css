@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 850px;
+  margin: auto;
+  background-color: #202d45;
+}
+
+.header_kontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontent_box1 {
+  display: flex;
+  gap: 20px;
+}
+
+.header_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.header_heading {
+  font-size: 20px;
+  color: #fff;
+}
+
+.header_heading > b {
+  font-size: 20px;
+  color: #E5BF9B;
+}
+
+.header_heading2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header_heading2 > img {
+  width: 40px;
+  height: 40px;
+}
+
+.moon {
+  width: 850px;
+  margin: auto;
+  background-color: #202d45;
+}
+
+.moon_kontent {
+  width: 90%;
+  margin: auto;
+  height: 1300px;
+}
+
+.moon_heading {
+  color: #fff;
+  font-size: 70px;
+}
+
+.moon_btn_box {
+  margin: 20px 0px;
+}
+
+.btn_box_btn {
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #E5BF9B;
+}
+
+.moon_avgust_box {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.avgust_right_heading {
+  color: #E5BF9B;
+  font-size: 30px;
+}
+
+.avgust_center_box {
+  color: #fff;
+}
+
+.center_heading {
+  padding: 0px 100px;
+}
+
+.center_paragrf {
+  padding: 20px 100px;
+}
+
+.avgust_left_box {
+  display: flex;
+  gap: 30px;
+  margin: 0px 100px;
+}
+
+.center_kvadrat {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #2c3850;
+}/*# sourceMappingURL=style.css.map */

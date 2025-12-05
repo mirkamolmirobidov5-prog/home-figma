@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    height: 550px;
+    background-image: url("./img/Rectangle\ 527.png");
+}
+.body_kontent {
+    width: 750px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.right_img {
+    margin: 50px;
+}
+.left_heading {
+    color: #AF957D;
+    padding-top: 50px;
+}
+.left_paragrf {
+    padding: 15px 0px;
+}
+.left_heading2 {
+    display: block;
+}
+.left_btn {
+    margin: 50px 0px;
+    width: 210px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #AF957D;
+}
+.div {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
