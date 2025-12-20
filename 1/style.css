@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 .container {
@@ -14,6 +16,7 @@
   width: 90%;
   margin: auto;
   display: flex;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -21,10 +24,12 @@
 
 .header_heading > b {
   color: #E5BF9B;
+  text-decoration: none;
 }
 
 .header_heading {
   color: #fff;
+  text-decoration: none;
 }
 
 .header_heading2 {
@@ -32,16 +37,20 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 
 .header_list {
   color: #fff;
   display: flex;
   gap: 50px;
+  cursor: pointer;
+  list-style-type: none;
 }
 
-.header_item {
-  list-style-type: none;
+.header_item:hover {
+  font-size: 10px;
+  padding: 0px 0px;
 }
 
 .hero_kontent {
@@ -110,8 +119,28 @@
   gap: 20px;
 }
 
+.Advantages_right:hover {
+  animation-name: Mirkamol;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .card_img {
   margin: 0px 10px;
+}
+
+@keyframes Mirkamol {
+  0% {
+    margin-left: 10px;
+  }
+  100% {
+    margin-left: 180px;
+  }
+}
+.imgs_img {
+  height: 530px;
+  border-radius: 15px;
 }
 
 .cards_heading {
@@ -214,6 +243,10 @@
   font-size: 18px;
 }
 
+.down_btn:hover {
+  background-color: grey;
+}
+
 .img_img {
   width: 790px;
   height: 930px;
@@ -230,6 +263,24 @@
   width: 50%;
   height: 500px;
   background-image: url("./imgs/Rectangle 2 (4).png");
+}
+
+.Infrastructure_card:nth-child(2) {
+  width: 50%;
+  height: 500px;
+  background-image: url("./imgs/Rectangle 2 (20).png");
+}
+
+.Infrastructure_card:nth-child(3) {
+  width: 50%;
+  height: 500px;
+  background-image: url("./imgs/Rectangle 2 (21).png");
+}
+
+.Infrastructure_card:nth-child(4) {
+  width: 50%;
+  height: 500px;
+  background-image: url("./imgs/Rectangle 2 (22).png ");
 }
 
 .Infrastructure_heading {
@@ -278,6 +329,10 @@
   border: 2px solid #E5BF9B;
   color: #fff;
   font-size: 20px;
+}
+
+.box1_btn:hover {
+  background-color: grey;
 }
 
 .box1_btn:nth-child(2) {
@@ -348,6 +403,10 @@
   border: 2px solid #E5BF9B;
   color: #fff;
   font-size: 15px;
+}
+
+.box4_btn:hover {
+  background-color: grey;
 }
 
 .box4_paragrf {
@@ -459,4 +518,8 @@
   font-size: 15px;
   background-color: transparent;
   border: 2px solid #E5BF9B;
+}
+
+.down_left_btn:hover {
+  background-color: grey;
 }/*# sourceMappingURL=style.css.map */

@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: grey;
 }
 
 .container {
@@ -426,6 +431,7 @@
 
 .Contacts_up {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
